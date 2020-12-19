@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>FAVOURITE SONG</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="Zul.css">
+
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+  <a href="Zul2.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Gaming</a>
+  <a href="Zul3.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Family</a>
+  <a href="Zul4.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Favourite Song</a>
+  <a href="Zul5.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Qualification</a>
+  <a href="Zul6.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Photography</a>
+  <a href="Zul7.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contacts</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="Zul2.html" class="w3-bar-item w3-button w3-padding-large">Gaming</a>
+    <a href="Zul3,html" class="w3-bar-item w3-button w3-padding-large">Family</a>
+    <a href="Zul4.html" class="w3-bar-item w3-button w3-padding-large">Favourite Song</a>
+    <a href="Zul5.html" class="w3-bar-item w3-button w3-padding-large">Qualifications</a>
+    <a href="Zul6.html" class="w3-bar-item w3-button w3-padding-large">Photography</a>
+    <a href="Zul7.html" class="w3-bar-item w3-button w3-padding-large">Contacts</a>
+  </div>
+</div>
+
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:64px 16px">
+    <h1 class="w3-margin w3-jumbo">My Favourite Songs</h1>
+    <p class="w3-xlarge">Collections</p>
+  </header>
+  <body>
+  <div class="w3-row-padding w3-white w3-center w3-margin-top">
+    <div class="w3-third">
+      <div class="w3-card w3-container w3-teal" style="min-height:460px">
+      <h3>Japanese Song</h3><br>
+      <iframe width="300" height="300"
+       src="https://www.youtube.com/embed/hQ23lREZSiw">
+      </iframe>
+      <p>Kana Nishino</p>
+      <li><a href="https://www.youtube.com/watch?v=hQ23lREZSiw">Kana Nishino- Suki</a></li>
+      </div>
+    </div>
+    
+    <div class="w3-third">
+      <div class="w3-card w3-container w3-teal" style="min-height:460px">
+      <h3>Music</h3><br>
+      <iframe width="300" height="300"
+       src="https://www.youtube.com/embed/SufAKh_bHsU">
+      </iframe>
+      <p>Abstract ft Roze </p>
+      <li><a href="https://www.youtube.com/watch?v=SufAKh_bHsU">Abstract-Scar</a></li>
+      </div>
+    </div>
+    
+    <div class="w3-third">
+      <div class="w3-card w3-container w3-teal" style="min-height:460px">
+      <h3>Game BGM</h3><br>
+      <iframe width="300" height="300"
+      src="https://www.youtube.com/embed/CBSBBOSRSy4">
+      </iframe>
+      <p>Rough - Square Enix - Final Fantasy 15</p>
+      <li><a href="https://www.youtube.com/watch?v=CBSBBOSRSy4">Lumnis Ocrima Ost</a></li>
+      </div>
+    </div>
+	  <embed src="song/db.mp3"></embed>
+	</div>
+
+  
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">“Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.”</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <a href="https://www.facebook.com/mohd.zulhelmi.9003/" class="fa fa-facebook-official w3-hover-opacity">Check Out My Facebook</a>
+    
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Merz Felix Website Template</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
